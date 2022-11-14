@@ -1,0 +1,13 @@
+<browser-action actionType="BrowserNavigate" isHit="false"
+    name="Navigate to https://prepr...as.neotys.com/" uid="eac57604-45a8-4d6a-a523-7fba4ccd2559">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://preprod-neoload.saas.neotys.com/"/>
+    <responsePageFileDescription>recorded-responses/res_eac57604-45a8-4d6a-a523-7fba4ccd2559</responsePageFileDescription>
+    <embedded-action>bc363add-3fc5-4c65-b202-30420f200ad0</embedded-action>
+</browser-action>

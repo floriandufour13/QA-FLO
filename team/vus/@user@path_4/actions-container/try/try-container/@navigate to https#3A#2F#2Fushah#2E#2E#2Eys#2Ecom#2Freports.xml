@@ -1,0 +1,12 @@
+<browser-action actionType="BrowserNavigate" isHit="false"
+    name="Navigate to https://ushah...ys.com/reports" uid="96c2a2dd-9c66-4831-a127-f6a89f4e006d">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL should include scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://ushahidi.apps.neotys.com/reports"/>
+    <responsePageFileDescription>recorded-responses/res_96c2a2dd-9c66-4831-a127-f6a89f4e006d</responsePageFileDescription>
+</browser-action>

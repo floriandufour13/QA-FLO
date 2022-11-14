@@ -1,0 +1,29 @@
+<try-action catch-assertions="false" catch-errors="true" name="try" uid="3c0db872-ddb5-4de6-bd35-40fec5bedb14">
+    <try-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed until an error or assertion occurs.</description>
+        <weighted-embedded-action uid="84c697ca-7897-48e8-b41e-622f10d89585"/>
+        <weighted-embedded-action uid="a003198c-eab2-4edd-93de-ec9478efa7bf"/>
+        <weighted-embedded-action uid="05858076-8f9a-4743-afa4-76b58dacd564"/>
+        <weighted-embedded-action uid="eac57604-45a8-4d6a-a523-7fba4ccd2559"/>
+        <weighted-embedded-action uid="257c7509-d58f-4396-906a-db27f2d9048c"/>
+        <weighted-embedded-action uid="5ec3631c-a830-426f-a785-ce022090840a"/>
+        <weighted-embedded-action uid="3d63d6bc-22d0-4dda-a878-523c94a0b720"/>
+        <weighted-embedded-action uid="0c6fb187-8db5-47ed-9da7-f17d72ce9bb1"/>
+        <weighted-embedded-action uid="c109353d-00c4-45e1-8ddf-4f46cdec9a71"/>
+        <weighted-embedded-action uid="1555010f-1588-45e7-93d7-6796f7a555ba"/>
+        <weighted-embedded-action uid="cacec211-5356-411f-baa5-069ace407389"/>
+        <weighted-embedded-action uid="1d63d9bd-b988-4fe3-a46e-d82c674b53ef"/>
+        <weighted-embedded-action uid="36dcb93e-2f1e-4c21-99e6-05ac4437073f"/>
+        <weighted-embedded-action uid="b1522e32-423b-4bd8-8856-de1331e5d642"/>
+        <weighted-embedded-action uid="72a6c973-a064-4cc4-83ba-0edad11ca701"/>
+        <weighted-embedded-action uid="e7dbc320-e2bb-4772-84a6-b688fb75a5bc"/>
+        <weighted-embedded-action uid="99d6dc0c-ed26-42fd-8e38-9ee3d03e6416"/>
+    </try-container>
+    <catch-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when an error or assertion occurs in the Try container.</description>
+    </catch-container>
+</try-action>

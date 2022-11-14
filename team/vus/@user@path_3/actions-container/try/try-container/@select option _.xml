@@ -1,0 +1,25 @@
+<browser-action actionType="BrowserSelectOption" isHit="false"
+    name="Select option _" uid="c06bd8af-5193-4676-a830-19be1170980a">
+    <description>Select an option from the html select element identified by the selector.
+You can specify several options if the select element has the 'multiple' attribute, or you can specify none to clear the selection.
+
+Possible parameters are:&#xd;
+- selector (required): The selector is a string that point to the elements in the page. Several types of selector are supported: text, CSS, XPath...
+	You can specify several selectors by adding multiple "selector" parameters to this action. The targeted element will match any of the selectors (OR operator).&#xd;
+- options[0].text (optional): Select the option with a matching text. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].value (optional): Select the option with a matching index. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- options[0].index (optional): Select the option with a matching value. Multiple options can be selected by adding more parameters with a different index.&#xd;
+- timeout (optional): Forces the timeout for that action in ms. By default the OpenBrowser defaultTimeout is used.&#xd;
+- frameIndex (optional): Frame index. Takes priority over frameName parameter.&#xd;
+- frameName (optional): Frame name.&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.until (optional): Allowed values are : LOAD, DOMCONTENTLOADED, NETWORKIDLE, COMMIT. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.</description>
+    <custom-action-parameter name="selector" type="TEXT" value="[name=&quot;l&quot;]"/>
+    <custom-action-parameter name="selector" type="TEXT" value="form > select:nth-child(1)"/>
+    <custom-action-parameter name="options[0].text" type="TEXT" value="ភាសាខ្មែរ"/>
+    <custom-action-parameter name="waitForNavigation.url" type="TEXT" value=".*"/>
+    <responsePageFileDescription>recorded-responses/res_c06bd8af-5193-4676-a830-19be1170980a</responsePageFileDescription>
+    <screenshotFileDescription>recorded-screenshots/sc_c06bd8af-5193-4676-a830-19be1170980a.jpg</screenshotFileDescription>
+    <embedded-action>6bf0e286-9758-449c-9199-2f3c87e4324e</embedded-action>
+</browser-action>

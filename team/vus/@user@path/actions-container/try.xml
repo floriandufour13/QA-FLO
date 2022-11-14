@@ -1,0 +1,31 @@
+<try-action catch-assertions="false" catch-errors="true" name="try" uid="4c8f89b3-3c84-4aba-bb1d-825be810f9b8">
+    <try-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed until an error or assertion occurs.</description>
+        <weighted-embedded-action uid="d846ea7d-2a57-4a7d-a37d-7006047d452a"/>
+        <weighted-embedded-action uid="3f5a4a9c-b466-40a4-b04a-95b95c688392"/>
+        <weighted-embedded-action uid="7d3c4409-0e47-4208-89e4-2cd77e3786d3"/>
+        <weighted-embedded-action uid="324d77a0-f7f9-4117-a248-0593ecf91f38"/>
+        <weighted-embedded-action uid="5eec42c3-d4a1-44fa-84b4-473f90f9e7fb"/>
+        <weighted-embedded-action uid="e3d6bb4b-91de-4d8e-ba6a-e4fcb2cf10e2"/>
+        <weighted-embedded-action uid="a8ae257a-016b-4d64-921a-9e5d60e5bafd"/>
+        <weighted-embedded-action uid="0ad0ea1f-d161-4a39-948c-ee998a284256"/>
+        <weighted-embedded-action uid="f99c9fb5-5279-4f8e-b208-ac3ecf8e3f9b"/>
+        <weighted-embedded-action uid="171a0cb8-b8f2-4a82-9b39-73c4e27c1ad2"/>
+        <weighted-embedded-action uid="b3842f82-4f9f-4da9-8e76-972cbb2f442c"/>
+        <weighted-embedded-action uid="50e5bf26-a6c0-45a3-9d77-4b45d733d6af"/>
+        <weighted-embedded-action uid="0c65f469-e2c1-4c16-aa1a-1486d1f765d1"/>
+        <weighted-embedded-action uid="bc8d1fab-1206-41e2-b001-30de5713b7bd"/>
+        <weighted-embedded-action uid="8f399914-13be-41ee-82c7-e851d175fd72"/>
+        <weighted-embedded-action uid="6a23456f-f45d-4ce6-ba07-d5efe635e2f5"/>
+        <weighted-embedded-action uid="03d920b2-5c29-4b62-8356-69dba77585d7"/>
+        <weighted-embedded-action uid="670ffee3-cbb1-456b-a63e-f03089f4dd1c"/>
+        <weighted-embedded-action uid="35e64ea8-d9c0-4940-a2c5-e5b85b0718e7"/>
+    </try-container>
+    <catch-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when an error or assertion occurs in the Try container.</description>
+    </catch-container>
+</try-action>
